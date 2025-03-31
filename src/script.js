@@ -208,7 +208,7 @@ const tick = () =>
     // Update the sphere
     sphere.position.x = Math.cos(elapsedTime) * 1.5
     sphere.position.z = Math.sin(elapsedTime) * 1.5
-    sphere.position.y = Math.abs(Math.sin(elapsedTime * 3)) // Math.abs() convierte los valores negativos en positivos.
+    sphere.position.y = Math.abs(Math.sin(elapsedTime * 10)) // Math.abs() convierte los valores negativos en positivos.
 
     // Update the shadow
     sphereShadow.position.x = sphere.position.x
